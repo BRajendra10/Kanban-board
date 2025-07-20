@@ -4,7 +4,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 export default function Navbar() {
     return (
         <nav className="w-full flex justify-end bg-gray-50 px-5">
-            <ul className="w-3/6 lg:w-2/6 h-[60px] hidden md:flex flex justify-evenly items-center">
+            <ul className="w-3/6 lg:w-2/6 h-[60px] hidden md:flex justify-evenly items-center">
                 <li className="text-sm uppercase cursor-pointer hover:border-b-2 hover:border-blue-300 transition-700">Activty</li>
                 <li className="text-sm uppercase cursor-pointer hover:border-b-2 hover:border-blue-300 transition-700">Team</li>
                 <li className="text-sm uppercase cursor-pointer hover:border-b-2 hover:border-blue-300 transition-700">Messages</li>
