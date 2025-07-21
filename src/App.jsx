@@ -5,7 +5,7 @@ import './App.css'
 function App() {
 
   return (
-    <div className="header w-full h-screen">
+    <div className="header w-full h-screen bg-gray-200">
       <Navbar />
       <Main />
     </div>

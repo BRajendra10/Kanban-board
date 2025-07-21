@@ -4,4 +4,17 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 60px 1fr;
+    gap: 2rem;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}
+
+.main-container{
+    grid-column: 2 / 16;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
 }
