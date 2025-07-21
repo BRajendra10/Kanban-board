@@ -37,7 +37,7 @@ export function Article() {
     return (
         <article className="bg-gray-50 rounded-xl p-5">
             <div className="tags flex gap-2">
-                <span className="bg-red-200 py-1 px-2 rounded-sm">Important</span>
+                <span className="bg-red-100 py-1 px-2 rounded-sm">Important</span>
                 <span className="bg-yellow-100 py-1 px-2 rounded-sm">Frontend Development</span>
             </div>
 
@@ -45,7 +45,7 @@ export function Article() {
             <p className="discription">Create a kanban project. Make simple version with 4 section, todo, in progress, need rivew, done.</p>
 
             <div className="info">
-                <span>🔗 2 Attachment</span>
+                <span className="cursor-pointer">🔗 2 Attachment</span>
             </div>
         </article>
     )
