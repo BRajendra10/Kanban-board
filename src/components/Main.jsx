@@ -1,4 +1,5 @@
 import { AiOutlineEllipsis } from "react-icons/ai";
+import { IoIosLink } from "react-icons/io";
 
 export default function Main() {
     return (
@@ -45,7 +46,7 @@ export function Article() {
             <p className="discription">Create a kanban project. Make simple version with 4 section, todo, in progress, need rivew, done.</p>
 
             <div className="info">
-                <span className="cursor-pointer">🔗 2 Attachment</span>
+                <span className="cursor-pointer flex items-center gap-2"> <IoIosLink /> 2 Attachment</span>
             </div>
         </article>
     )
