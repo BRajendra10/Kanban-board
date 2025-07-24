@@ -8,15 +8,18 @@ export default function Activity() {
     const [todata, setTodoData] = useState([]);
     const [inProgress, setInProgress] = useState([]);
     const [done, setDone] = useState([]);
+    const [review, setReview] = useState([]);
 
     async function getData() {
         try {
             const todoData = await axios.get(`http://localhost:3000/todo`);
             const inProgressData = await axios.get(`http://localhost:3000/inprogress`);
             const doneData = await axios.get(`http://localhost:3000/done`);
+            const reviewData = await axios.get(`http://localhost:3000/review`);
             setTodoData(todoData.data);
             setInProgress(inProgressData.data);
             setDone(doneData.data);
+            setReview(reviewData.data);
         }
         catch (error) {
             console.log(error);
@@ -44,6 +47,9 @@ export default function Activity() {
                 </section>
                 <section>
                     <Navs name={"Needs riview"} />
+                    <div className="articles">
+                        {review.map((el) => <Article id={el.id} title={el.title} description={el.description} />)}
+                    </div>
                 </section>
                 <section>
                     <Navs name={"Done"} />

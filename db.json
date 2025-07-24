@@ -4,11 +4,6 @@
       "id": 1,
       "title": "Research drag-and-drop libraries",
       "description": "Evaluate React libraries like react-beautiful-dnd or dnd-kit for drag-and-drop functionality."
-    },
-    {
-      "id": 2,
-      "title": "Design UI mockups",
-      "description": "Create wireframes and high-fidelity designs for the Kanban board interface using Figma."
     }
   ],
   "inprogress": [
@@ -21,18 +16,8 @@
   "review": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
-      "id": 2,
-      "title": "Task card styling",
-      "author": "john_doe"  
-    },
-    {
-      "id": 3,
-      "title": "Drag-and-drop functionality",
-      "author": "jane_smith"
+      "title": "Changing user jsx",
+      "description": "Create a kanban project. Make simple version with 4 section, todo, in progress, need review, done."
     }
   ],
   "done": [
@@ -40,6 +25,11 @@
       "id": 1,
       "title": "Set up JSON-server",
       "description": "Configure JSON-server for mock API to handle task CRUD operations."
+    },
+    {
+      "id": 2,
+      "title": "Design UI mockups",
+      "description": "Create wireframes and high-fidelity designs for the Kanban board interface using Figma."
     }
   ],
   "currentUser": [
