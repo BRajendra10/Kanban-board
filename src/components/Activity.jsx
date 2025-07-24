@@ -1,10 +1,8 @@
-import { useState } from 'react';
 import Article from "./Article";
 import { AiOutlineEllipsis } from "react-icons/ai";
 import { FaPlus } from "react-icons/fa6";
 
-export default function Main() {
-    const [isClicked, setisClicked] = useState(false);
+export default function Activity() {
 
     return (
         <main className="main">
@@ -13,10 +11,6 @@ export default function Main() {
                     <Navs name={"To Do"} />
                     <div className="articles">
                         <Article />
-
-                        <button className="flex items-center gap-2 w-full h-[90px] bg-gray-100 text-gray-500 p-5" onClick={() => setisClicked(!isClicked)}>
-                            Add <FaPlus />
-                        </button>
                     </div>
                 </section>
                 <section>

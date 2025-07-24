@@ -1,13 +1,14 @@
 import Navbar from './components/Navbar'
-import Main from './components/Main'
+import Activity from './components/Activity'
 import './App.css'
+import AllRoutes from './routes/AllRoutes'
 
 function App() {
 
   return (
-    <div className="header w-full h-screen bg-gray-200">
+    <div className="relative header w-full h-screen bg-gray-200">
       <Navbar />
-      <Main />
+      <AllRoutes />
     </div>
   )
 }
