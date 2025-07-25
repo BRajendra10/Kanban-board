@@ -3,6 +3,7 @@
     {
       "id": 1,
       "title": "Research drag-and-drop libraries",
+      "tags": ["Front-end", "UI / UX"],
       "description": "Evaluate React libraries like react-beautiful-dnd or dnd-kit for drag-and-drop functionality."
     }
   ],
@@ -10,6 +11,7 @@
     {
       "id": 1,
       "title": "Kanban project",
+      "tags": ["Front-end"],
       "description": "Create a kanban project. Make simple version with 4 section, todo, in progress, need review, done."
     }
   ],
@@ -17,6 +19,7 @@
     {
       "id": 1,
       "title": "Changing user jsx",
+      "tags": ["Front-end"],
       "description": "Create a kanban project. Make simple version with 4 section, todo, in progress, need review, done."
     }
   ],
@@ -24,11 +27,13 @@
     {
       "id": 1,
       "title": "Set up JSON-server",
+      "tags": ["Front-end", "server"],
       "description": "Configure JSON-server for mock API to handle task CRUD operations."
     },
     {
       "id": 2,
       "title": "Design UI mockups",
+      "tags": ["UI / UX"],
       "description": "Create wireframes and high-fidelity designs for the Kanban board interface using Figma."
     }
   ],

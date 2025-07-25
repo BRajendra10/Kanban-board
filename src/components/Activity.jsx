@@ -36,25 +36,25 @@ export default function Activity() {
                 <section>
                     <Navs name={"To Do"} />
                     <div className="articles">
-                        {todata.map((el) => <Article id={el.id} title={el.title} description={el.description} />)}
+                        {todata.map((el) => <Article id={el.id} title={el.title} description={el.description} tags={el.tags} />)}
                     </div>
                 </section>
                 <section>
                     <Navs name={"In Progress"} />
                     <div className="articles">
-                        {inProgress.map((el) => <Article id={el.id} title={el.title} description={el.description} />)}
+                        {inProgress.map((el) => <Article id={el.id} title={el.title} description={el.description} tags={el.tags} />)}
                     </div>
                 </section>
                 <section>
                     <Navs name={"Needs riview"} />
                     <div className="articles">
-                        {review.map((el) => <Article id={el.id} title={el.title} description={el.description} />)}
+                        {review.map((el) => <Article id={el.id} title={el.title} description={el.description} tags={el.tags} />)}
                     </div>
                 </section>
                 <section>
                     <Navs name={"Done"} />
                     <div className="articles">
-                        {done.map((el) => <Article id={el.id} title={el.title} description={el.description} />)}
+                        {done.map((el) => <Article id={el.id} title={el.title} description={el.description} tags={el.tags} />)}
                     </div>
                 </section>
             </div>
